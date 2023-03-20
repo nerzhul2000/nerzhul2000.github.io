@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Curriculum Vitae</title> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Genos:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="StyleCV.css">
+    <link rel="stylesheet" href="icons.css">
+</head>
+<body>
+    <!-- Primera Tabla-->
+    <div>
+        <h1>Carlos Belmonte</h1>
+        <table id ="primaryTable">
+            <thead> 
+                <th><span class="icon icon-star-full"></span>Habilidades</th>
+                <th><span class="icon icon-user-tie"></span>Personalidad</th>
+                <th><span class="icon icon-bubbles3"></span>Idiomas</th>          
+            </thead>  
+            <tbody>
+                <td>
+                    <!-- Lista Desordenadas-->
+                    <ul>
+                        <li>C#</li>
+                        <li>Unity</li>
+                        <li>SEO</li>
+                        <li>HTML</li>
+                        <li>JS</li>
+                        <li>CSS</li>
+                        <li>Windows 10</li>
+                    </ul>
+                </td>
+                
+                <td>
+                    <!-- Lista Ordenadas-->
+                    <ol>
+                        <li>Ambicioso</li>
+                        <li>Analitico</li>
+                        <li>Curioso</li>
+                        <li>Logico</li>
+                        <li>Optimista</li>
+                        <li>Perseverante</li>
+                    </ol>
+                </td>
+    
+                <td>
+                    <!-- Lista Ordenada-->
+                    <ol>
+                        <li>Español: Idioma nativo</li>
+                        <li>Inglés: Básico</li>
+                    </ol>
+                </td>
+    
+            </tbody>
+        </table>
+    </div>
+    <!-- Anclas-->
+    <div>   
+        <p>
+            Ir a:
+            <a href="#a-objetivos">Objetivos</a>
+            <a href="#a-formacion">Formacion</a>
+            <a href="#a-contacto">Contacto</a>
+        </p>
+    </div>
+    <!-- Objetivos-->
+    <div>
+        <a name="a-objetivos"></a>
+        <h2><span class="icon icon-target"></span>Objetivos</h2>
+        <p>
+            Convertirme en un desarrollador independiente capaz de lograr sus propias apps y juegos indie, de manera rentable y consistente.
+        </p>
+    </div>
+    <!-- Formacion-->
+    <div>
+        <a name="a-formacion"></a>
+        <h2><span class="icon icon-library"></span>Formacion</h2>
+        <p>
+            <ul>
+                <li>Cursos web</li>
+                <li>Tutoriales YouTube</li>
+                <li>Curso Udemy</li>
+                <li>E-Books</li>
+                <li>Y mucha practica...</li>
+            </ul>
+        </p>
+    </div>
+    <!-- Datos de contacto -->
+    <div>
+        <a name="a-contacto"></a>
+        <h2> <span class="icon icon-profile"></span>Datos de contacto</h2>
+        <ul> <!-- Lista desordenada-->
+            <li class="contactDataItem"><span class="icon icon-phone"></span>Tel: 15-12345678</li>
+            <li class="contactDataItem"><span class="icon icon-home3"></span>Direccion: calle falsa 123</li>
+        </ul>
+    </div>
+    <!-- Datos de redes sociales -->
+    <button type= "button" id= "buttonRS">Ver redes sociales</button>
+    <div id= "divRS">
+        <ul>
+        <li class="contactDataItem"><span class="icon icon-envelop"></span>E-mail: carlos_belmonte@hotmail.com</li>
+        <li class="contactDataItem"><span class="icon icon-facebook2"></span>Facebook: carlos_bel@Facebook.com</li>
+        <li class="contactDataItem"><span class="icon icon-instagram"></span>Instagram: xxxxxxx</li>  
+        </ul>
+    </div>
+    <script src="FunctionsCV.js"></script>    
+</body>
+</html>
